@@ -1,0 +1,117 @@
+$separator-height: 325px;
+
+.timeline__container {
+	display: grid;
+	place-items: center;
+	padding: 8rem 0 0;
+}
+
+.item__container {
+	position: relative;
+	display: grid;
+	align-items: center;
+	grid-template-columns: 1fr auto 1fr;
+	gap: 4rem;
+	width: 50vw;
+
+	&:nth-child(even) {
+		grid-auto-flow: dense;
+		direction: rtl;
+	}
+	@media screen and (min-width: 300px) and (max-width: 480px) {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 5rem;
+		width: 80%;
+	}
+}
+
+.image__carbon {
+	border-radius: 0.75rem;
+	border: 0.1rem solid #ffffff55;
+	overflow: hidden;
+}
+
+.image__carbon > img {
+}
+
+img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.timeline__text__container {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	font-size: 1rem;
+	font-weight: 200;
+	text-align: center;
+	// color: rgb(91, 91, 91);
+	// color: #ccc;
+}
+
+.timeline__text {
+	font-size: 2rem;
+	font-weight: 600;
+	// color: #272727;
+	text-transform: uppercase;
+	@media screen and (min-width: 300px) and (max-width: 480px) {
+		margin-bottom: 1rem;
+	}
+}
+
+.timeline__subtext {
+	font-size: 1.15rem;
+	font-weight: 200;
+	// color: #272727;
+	@media screen and (min-width: 300px) and (max-width: 480px) {
+		margin-bottom: 1rem;
+	}
+}
+
+.start {
+	background: linear-gradient(#000, #444) !important;
+}
+
+.end {
+	background: linear-gradient(#444, #000) !important;
+}
+
+.bar__content {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	transform: translateY(-50%);
+	@media screen and (min-width: 300px) and (max-width: 480px) {
+		display: none;
+	}
+}
+
+span.bar {
+	height: $separator-height;
+	width: 1px;
+	background: #444;
+	padding-right: 1px;
+	transform: translateY(6px);
+}
+
+span.circle {
+	position: absolute;
+	bottom: 0;
+	width: 12px;
+	height: 12px;
+	box-shadow: 0 0 0 1.5px #444 inset;
+	background: black;
+	border-radius: 50%;
+	transform: translateY(50%);
+	z-index: 5000;
+}
+
+span.dotted {
+	height: $separator-height;
+	transform: translateY(6px);
+	border-left: 2px dotted #444;
+}
