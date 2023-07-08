@@ -1,7 +1,7 @@
 
 const members = [
     {
-      name: "Aarohi Manchanda",
+      name: "Rishi Joshi",
       position: "Convener Committee",
       team: "ECcc",
       behance:"test",
