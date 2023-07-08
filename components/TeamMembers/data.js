@@ -12,7 +12,7 @@ const members = [
         "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fuser%2F&psig=AOvVaw29_qPuKBLgqzf-iecMBtlF&ust=1664716184477000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDg75iNv_oCFQAAAAAdAAAAABAD",
     },
     {
-      name: "Mahi Jain",
+      name: "Mahi ",
       position: "Convener Committee",
       team: "ECcc",
       behance:"",
