@@ -1,7 +1,7 @@
 
 const members = [
     {
-      name: "Rishi ",
+      name: "Raghav ",
       position: "Convener Committee",
       team: "ECcc",
       behance:"test",
