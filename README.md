@@ -1,3 +1,12 @@
+## Contributing to Genesis, Guidelines 🔐
+
+It is expected that all the contributors, especially the `first time contributors` must go through these atleast once while setting up, contributing to this project :
+
+1. [Contributing Guidelines](/CONTRIBUTING.md)
+
+---------------------------------------------------------------------------------------------------------
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
