@@ -11,9 +11,10 @@ const events = [
     time: "7pm to 9pm",
     team_size: "2",
     prize: "",
-    form: "",
     venue: "",
-    form: "https://forms.gle/AykRiGuPRBPYgoBb8",
+    form: "https://forms.gle/ygdVqhfu755FuoUUA",
+    type: 'type',
+    status: 'upcoming'
   },
   {
     keys:"2",
@@ -27,8 +28,10 @@ const events = [
     time: "10:30pm to 6:00am",
     team_size: "1-3",
     prize: "Rs. 15,000",
-    form: "https://forms.gle/4bbLyux4uMno9LkX9",
+    form: "https://forms.gle/ygdVqhfu755FuoUUA",
     venue: "10 rooms around 307 AB1",
+    type: 'type',
+    status: 'upcoming'
   },
   {
     keys:"3",
@@ -42,8 +45,10 @@ const events = [
     time: "12pm to 3pm",
     team_size: "2-3",
     prize: "Rs. 10,000",
-    form: "https://forms.gle/cCzmFh9w6pTwfsq69",
+    form: "https://forms.gle/ygdVqhfu755FuoUUA",
     venue: "4 classrooms around 101 AB1",
+    type: 'type',
+    status: 'upcoming'
   },
   {
     keys:"4",
@@ -57,8 +62,10 @@ const events = [
     time: "",
     team_size: "4",
     prize: "",
-    form: "https://forms.gle/oRTHK7QTTxcPPJ577",
+    form: "https://forms.gle/ygdVqhfu755FuoUUA",
     venue: "",
+    type: 'type',
+    status: 'upcoming'
   },
   {
     keys:"5",
@@ -72,8 +79,10 @@ const events = [
     time: "7:30pm to 10:00pm",
     team_size: "1-3",
     prize: "",
-    form: "https://forms.gle/V64R3LdPDE7EU2437",
+    form: "https://forms.gle/ygdVqhfu755FuoUUA",
     venue: "Room 307 AB1",
+    type: 'type',
+    status: 'upcoming'
   },
   {
     keys:"6",
@@ -87,8 +96,10 @@ const events = [
     time: "11pm to 6am",
     team_size: "2",
     prize: "",
-    form: "https://forms.gle/9SZ5cSfMG6PitPgT9",
+    form: "https://forms.gle/ygdVqhfu755FuoUUA",
     venue: "",
+    type: 'type',
+    status: 'upcoming'
   },
   {
     keys:"7",
@@ -102,8 +113,10 @@ const events = [
     time: "12pm to 4pm",
     team_size: "5-6",
     prize: "",
-    form: "",
+    form: "https://forms.gle/ygdVqhfu755FuoUUA",
     venue: "",
+    type: 'type',
+    status: 'upcoming'
   },
   {
     keys:"8",
@@ -117,8 +130,10 @@ const events = [
     time: "3pm to 5pm",
     team_size: "1",
     prize: "Rs. 10,000",
-    form: "https://forms.gle/hKLtqqDYBrppJcPt5",
+    form: "https://forms.gle/ygdVqhfu755FuoUUA",
     venue: "MS Teams",
+    type: 'type',
+    status: 'upcoming'
   },
   {
     keys:"9",
@@ -132,8 +147,10 @@ const events = [
     time: "4pm to 6pm",
     team_size: "",
     prize: "T shirts and Goodies for the best questions or interaction",
-    form: "https://forms.gle/Diue8sZtZNcdTEPQ6",
+    form: "https://forms.gle/ygdVqhfu755FuoUUA",
     venue: "TMA PAI AUDITORIUM",
+    type: 'type',
+    status: 'upcoming'
   },
 ];
 export default events;
