@@ -14,13 +14,12 @@ import genesisLogo from "../../../public/imgs/footerlogo.png";
 import ieeeLogo from "../../../public/imgs/logo.png";
 import ieeecsLogo from "../../../public/imgs/ieeecs.svg";
 import ieeewieLogo from "../../../public/imgs/ieeewie.svg";
-
+import ieeerasLogo3 from "../../../public/imgs/ieeeLogo.png";
 const Footer = () => (
   <>
     <Box
-      bgColor="#080c2c"
+      bgColor="transparent"
       width="100%"
-      backgroundImage="url(/svg/footer.svg)"
       backgroundAttachment="fixed"
       backgroundPosition="center"
       backgroundSize="cover"
@@ -38,12 +37,13 @@ const Footer = () => (
             justifyItems="center"
             spacing="48px"
           >
-            <VStack width={["100%", "100%", "100%", "100%", "200%"]}>
+            <VStack width={["100%", "100%", "100%", "100%", "100%"]}>
               <HStack>
                 <NextImage src={genesisLogo} alt="Genesis Logo" />
                 <NextImage src={ieeeLogo} alt="IEEE SB MUJ Logo" />
                 <NextImage src={ieeecsLogo} alt="IEEE CS Logo" />
                 <NextImage src={ieeewieLogo} alt="IEEE WIE Logo" />
+                <NextImage src={ieeerasLogo3} alt="IEEE RAS LOGO"/>
               </HStack>
 
               <HStack width="100%" height="100px">
@@ -52,21 +52,28 @@ const Footer = () => (
                   href="https://www.instagram.com/genesismuj"
                   underline
                 >
-                  @genesismuj
+                  Genesis 3.0
                 </FooterSectionSocialLink>
                 <FooterSectionSocialLink
                   icon={<FooterSectionSocialIcon icon={FaInstagram} />}
                   href="https://www.instagram.com/genesismuj"
                   underline
                 >
-                  @genesismuj
+                    IEEE RAS
+                 </FooterSectionSocialLink>
+                <FooterSectionSocialLink
+                  icon={<FooterSectionSocialIcon icon={FaInstagram} />}
+                  href="https://www.instagram.com/genesismuj"
+                  underline
+                > 
+                  IEEE WIE
                 </FooterSectionSocialLink>
                 <FooterSectionSocialLink
                   icon={<FooterSectionSocialIcon icon={FaInstagram} />}
                   href="https://www.instagram.com/genesismuj"
                   underline
                 >
-                  @genesismuj
+                  IEEE SB
                 </FooterSectionSocialLink>
               </HStack>
             </VStack>
