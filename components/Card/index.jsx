@@ -22,6 +22,7 @@ export default function Card(props) {
   const type = props.type;
   const linkGH = props.linkGH;
   const date = props.date;
+  const form = props.form;
   const redirect = props.redirect;
   console.log(linkGH);
   return (
@@ -72,7 +73,7 @@ export default function Card(props) {
             </Text>
           </Flex>
           </Box>
-          {date?"":<Link href={`/events/${title}`}><Button width={"100%"}>Register</Button></Link>}
+          {date?"":<Link href={form}><Button colorScheme="messenger" variant="outline" width={"100%"}  _hover={{ color:'white', bgColor:'#0063D1'}}>Register</Button></Link>}
           {date?"":<Link href={`/events/${title}`}><Button width={"100%"}>Learn More</Button></Link>}
         </Stack>
         <Text color={"gray.500"} px={"6"}>
