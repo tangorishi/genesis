@@ -129,7 +129,7 @@ export default function Home() {
                 color={"black"}
                 textAlign={"center"}
                 padding={"3rem 0 0.1rem 0"}><b>Upcoming Events</b></Text>
-        <Timeline/>
+        <Timeline />
         </Box>
         <Stack>
         <Text fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
