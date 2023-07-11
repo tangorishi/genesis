@@ -14,19 +14,22 @@ import genesisLogo from "../../../public/imgs/footerlogo.png";
 import ieeeLogo from "../../../public/imgs/logo.png";
 import ieeecsLogo from "../../../public/imgs/ieeecs.svg";
 import ieeewieLogo from "../../../public/imgs/ieeewie.svg";
+import ieeerasLogo3 from "../../../public/imgs/ieeerasLogo3.png";
+
 
 const Footer = () => (
   <>
     <Box
-      bgColor="#080c2c"
+      bgColor="transparent"
       width="100%"
-      backgroundImage="url(/svg/footer.svg)"
+      
       backgroundAttachment="fixed"
       backgroundPosition="center"
       backgroundSize="cover"
       backgroundRepeat="no-repeat"
-      paddingTop="40px"
-      paddingBottom="20px"
+      paddingTop="80px"
+      paddingBottom="120px"
+      paddingRight="150px"
     >
       <FadeInUp>
         <ResponsiveContainer>
@@ -38,12 +41,13 @@ const Footer = () => (
             justifyItems="center"
             spacing="48px"
           >
-            <VStack width={["100%", "100%", "100%", "100%", "200%"]}>
+            <VStack width={["100%", "100%", "100%", "100%", "150%"]}>
               <HStack>
                 <NextImage src={genesisLogo} alt="Genesis Logo" />
                 <NextImage src={ieeeLogo} alt="IEEE SB MUJ Logo" />
                 <NextImage src={ieeecsLogo} alt="IEEE CS Logo" />
                 <NextImage src={ieeewieLogo} alt="IEEE WIE Logo" />
+                <NextImage src={ieeerasLogo3} alt="IEEE RAS Logo" />
               </HStack>
 
               <HStack width="100%" height="100px">
@@ -52,21 +56,36 @@ const Footer = () => (
                   href="https://www.instagram.com/genesismuj"
                   underline
                 >
-                  @genesismuj
+                  Genesis 
+                </FooterSectionSocialLink>
+                <FooterSectionSocialLink 
+                  icon={<FooterSectionSocialIcon icon={FaInstagram} />}
+                  href="https://www.instagram.com/genesismuj"
+                  underline
+                >
+                IEEE SB 
+                </FooterSectionSocialLink>
+                <FooterSectionSocialLink
+                  icon={<FooterSectionSocialIcon icon={FaInstagram} />}
+                  href="www.google.com"
+                  underline
+                  >
+                IEEE CS 
+                </FooterSectionSocialLink>
+                <FooterSectionSocialLink
+                  icon={<FooterSectionSocialIcon icon={FaInstagram} />}
+                  href="www.google.com"
+                  underline
+                  >
+
+                IEEE RAS 
                 </FooterSectionSocialLink>
                 <FooterSectionSocialLink
                   icon={<FooterSectionSocialIcon icon={FaInstagram} />}
                   href="https://www.instagram.com/genesismuj"
                   underline
                 >
-                  @genesismuj
-                </FooterSectionSocialLink>
-                <FooterSectionSocialLink
-                  icon={<FooterSectionSocialIcon icon={FaInstagram} />}
-                  href="https://www.instagram.com/genesismuj"
-                  underline
-                >
-                  @genesismuj
+                  IEEE WIE
                 </FooterSectionSocialLink>
               </HStack>
             </VStack>
@@ -90,12 +109,17 @@ const Footer = () => (
             <VStack width="100%" spacing={10}>
               <FooterSection>
                 <FooterSectionHeading>Links</FooterSectionHeading>
-                <NextLink color="white" to="http://jaipur.manipal.edu/">
+                <NextLink  color="white" to="http://jaipur.manipal.edu/">
                   MUJ Official Website
                 </NextLink>
                 <NextLink color="white" to="http://www.ieeemuj.com">
                   IEEE MUJ Website
                 </NextLink>
+                <NextLink color="white" to="http://www.youtube.com">
+                  GENESIS 3.0 VIDEO
+                </NextLink>
+                
+
               </FooterSection>
             </VStack>
           </Stack>
@@ -103,7 +127,7 @@ const Footer = () => (
       </FadeInUp>
     </Box>
     <Flex
-      bgColor="black"
+      bgColor="transparent"
       width="100%"
       height="32px"
       textAlign="center"
@@ -111,9 +135,10 @@ const Footer = () => (
       alignItems="center"
       color="white"
       fontWeight="bold"
+      fontFamily="monospace"
     >
       <Text width="100%" fontSize="sm">
-        MADE WITH ❤️ USING OPEN SOURCE
+        MADE WITH ❤️ BY TEAM GENESIS
       </Text>
     </Flex>
   </>
