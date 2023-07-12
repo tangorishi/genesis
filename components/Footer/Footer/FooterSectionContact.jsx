@@ -11,6 +11,7 @@ const FooterSectionContact = ({ number, name, children }) => (
       <Text
         color="white"
         size="sm"
+        fontFamily="monospace"
       >
         {children}
       </Text>
@@ -18,6 +19,7 @@ const FooterSectionContact = ({ number, name, children }) => (
     <Text
       color="white"
       size="sm"
+      fontFamily="monospace"
     >
       {name}
     </Text>
