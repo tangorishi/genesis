@@ -12,6 +12,7 @@ const FooterSectionLink = ({ underline, href, children }) => (
     <Text
       color="white"
       size="sm"
+      fontFamily="monospace"
     >
       {children}
     </Text>
