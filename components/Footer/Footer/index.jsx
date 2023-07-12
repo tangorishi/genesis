@@ -52,7 +52,7 @@ const Footer = () => (
                   href="https://www.instagram.com/genesismuj"
                   underline
                 >
-                  Genesis 3.0
+                  Genesis
                 </FooterSectionSocialLink>
                 <FooterSectionSocialLink
                   icon={<FooterSectionSocialIcon icon={FaInstagram} />}
