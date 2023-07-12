@@ -90,7 +90,7 @@ const Footer = () => (
                   +91 70731 89955
                 </FooterSectionContact>
                 <FooterSectionLink href="mailto:ieee@muj.manipal.edu">
-                  ieee@muj.manipal.edu
+                  Email Us
                 </FooterSectionLink>
               </FooterSection>
             </VStack>
