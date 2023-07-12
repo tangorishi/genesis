@@ -110,7 +110,7 @@ const Footer = () => (
       </FadeInUp>
     </Box>
     <Flex
-      bgColor="black"
+      bgColor="transparent"
       width="100%"
       height="32px"
       textAlign="center"
