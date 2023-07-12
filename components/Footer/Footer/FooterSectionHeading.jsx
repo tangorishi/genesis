@@ -4,6 +4,7 @@ const FooterSectionHeading = ({ children }) => (
   <Heading
     color="white"
     size="sm"
+    fontFamily="monospace"
   >
     {children}
   </Heading>
