@@ -118,9 +118,10 @@ const Footer = () => (
       alignItems="center"
       color="white"
       fontWeight="bold"
+      fontFamily="monospace"
     >
       <Text width="100%" fontSize="sm">
-        MADE WITH ❤️ USING OPEN SOURCE
+        MADE WITH ❤️ TEAM GENESIS
       </Text>
     </Flex>
   </>
