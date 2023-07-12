@@ -32,7 +32,7 @@ const StatBox = ({ numtext, subtext, visible }) => {
       mt={"-2rem"}
       rounded="lg"
       border="2px solid"
-      borderColor={"white"}
+      borderColor={"lightblue"}
     //   borderColor={"gray.700"}
       //   borderColor="gray.200"
       //   css={{ backdropFilter: "blur(8px)" }}
