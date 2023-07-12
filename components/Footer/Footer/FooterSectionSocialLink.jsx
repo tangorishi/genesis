@@ -19,6 +19,7 @@ const FooterSectionSocialLink = ({
       <Text
         color="white"
         size="sm"
+        fontFamily="monospace"
       >
         {children}
       </Text>
