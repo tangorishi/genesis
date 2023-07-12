@@ -110,7 +110,7 @@ const Footer = () => (
       </FadeInUp>
     </Box>
     <Flex
-      bgColor="black"
+      bgColor="transparent"
       width="100%"
       height="32px"
       textAlign="center"
@@ -118,9 +118,10 @@ const Footer = () => (
       alignItems="center"
       color="white"
       fontWeight="bold"
+      fontFamily="monospace"
     >
       <Text width="100%" fontSize="sm">
-        MADE WITH ❤️ USING OPEN SOURCE
+        MADE WITH ❤️ TEAM GENESIS
       </Text>
     </Flex>
   </>
