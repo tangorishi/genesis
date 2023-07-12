@@ -14,7 +14,7 @@ import genesisLogo from "../../../public/imgs/footerlogo.png";
 import ieeeLogo from "../../../public/imgs/logo.png";
 import ieeecsLogo from "../../../public/imgs/ieeecs.svg";
 import ieeewieLogo from "../../../public/imgs/ieeewie.svg";
-import ieeerasLogo3 from "../../../public/imgs/ieeeLogo.png";
+import ieeerasLogo3 from "../../../public/imgs/ieeerasLogo3.png";
 const Footer = () => (
   <>
     <Box
