@@ -62,7 +62,7 @@ export default function Card(props) {
             letterSpacing={1.7}
           >
             <Badge variant="outline" colorScheme={status_color}>
-              {status} | {type}
+              {status}  {/* | {type} */}
             </Badge>
           </Text>
           <hr />
