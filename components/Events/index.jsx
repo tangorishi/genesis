@@ -7,7 +7,7 @@ const Events = () => {
   return (
     <Box px={10} mx={6}>
       <FadeInUp>
-        <SimpleGrid columns={[1, 1, 1, 2, 3]} spacingX={"1.2rem"} px={"13vw"}>
+       {/* <SimpleGrid columns={[1, 1, 1, 2, 3]} spacingX={"1.2rem"} px={"10vw"}> 
           {events.map((res) => (
             <Card
               key={res.key}
@@ -24,7 +24,7 @@ const Events = () => {
               date={res["date"]}
             />
           ))}
-        </SimpleGrid>
+        </SimpleGrid> */}
       </FadeInUp>
     </Box>
   );
