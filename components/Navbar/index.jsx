@@ -17,7 +17,7 @@ import NextLink from "next/link";
 import NextImage from "next"
 
 import NavLink from "./NavLink";
-import navlogo from "./../../public/imgs/navlogo.jpeg";
+// import navlogo from "./../../public/imgs/navlogo.jpeg";
 
 const NavLinks = ({ closeMenu }) => (
   <>
