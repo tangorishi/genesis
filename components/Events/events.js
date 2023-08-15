@@ -1,4 +1,4 @@
-const events = [
+{ /* const events = [
   {
     image:
       'https://images.prismic.io/ieeemuj/6bb7e2e5-f232-4a73-be6f-fd55d76cd749_thebigshot.png?auto=compress,format',
@@ -61,4 +61,4 @@ const events = [
   },
   ];
   
-  export default events;
+export default events; */}
