@@ -20,8 +20,8 @@ const EventDetails = (props) => {
               tags={props.tags}
               linkGH={props.linkGH}
             /> */}
-            <Image src={props.image} width={"30rem"} boxShadow={"10px 10px 25px darkblue"}></Image>
-      <Box margin={"0 0 0 2.5rem"} padding={"0 0 0 2.5rem"} borderLeft={"2px dotted black"}>
+            <Image src={props.image} height={"42rem"} width={"30rem"} boxShadow={"10px 10px 25px darkblue"}></Image>
+      <Box margin={"0 0 0 3.5rem"} padding={"0 0 0 2.5rem"} borderLeft={"5px dotted black"}>
       <Text
                 fontSize={["md", "xl", "2xl"]}
                 py={"4"}
@@ -93,3 +93,4 @@ const EventDetails = (props) => {
 };
 
 export default EventDetails;
+
