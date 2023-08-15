@@ -132,12 +132,12 @@ export default function Home() {
         <Timeline />
         </Box>
         <Stack>
-        <Text fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
+       { /* <Text fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
                 letterSpacing={5.5}
                 backgroundColor={"#fff"}
                 color={"black"}
                 textAlign={"center"}
-                padding={"3rem 0 0.1rem 0"}><b>Past IEEE Events</b></Text>
+            padding={"3rem 0 0.1rem 0"}><b>Past IEEE Events</b></Text> */}
           <Events />
         </Stack>
         {/* <Speaker/> */}
