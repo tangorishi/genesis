@@ -14,7 +14,8 @@ import {
 } from "@chakra-ui/react";
 import { MdMenu, MdClose } from "react-icons/md";
 import NextLink from "next/link";
-import NextImage from "next"
+import NextImage from "next/image";
+import LogoNew from "../../pages/public/imgs/logo-dots-clear.png";
 
 import NavLink from "./NavLink";
 // import navlogo from "./../../public/imgs/navlogo.jpeg";
@@ -28,9 +29,9 @@ const NavLinks = ({ closeMenu }) => (
         p={"4"}
         pt={"8"}
         letterSpacing={8.0}
-        backgroundColor={"#080c2c"}        
+        backgroundColor= {"#080c2c"}        
         px={"3rem"}
-        color={"#c3c7c4"}        
+        color={"#c3c7c4"}       
         _hover={{
           color: "white",          
         }}
@@ -126,20 +127,21 @@ const Navbar = () => {
           align="space-between"
         >
           <NextLink href="/" passHref>
-            <Text
+            {/* <Text
               fontSize={["lg", "xl", "2xl", "3xl", "4xl"]}
               fontWeight={"800"}
               p={"4"}
               pb={"6vh"}
               letterSpacing={8.0}
-              color={"white"}
+              color={"#c3c7c4"}
               bgColor={"#080c2c"}
               // bgColor={"gray.900"}
               size={"md"}
               cursor={"pointer"}
             >
               GENESIS 2.0
-            </Text>
+            </Text> */}
+            <NextImage src={LogoNew} alt="Genesis Logo" />
           </NextLink>
           <Spacer />
           <HStack as="nav" spacing={4} display={{ base: "none", xl: "flex" }}>
